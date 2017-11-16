@@ -18,7 +18,7 @@ while true; do
 	sqlite3 /home/pi/.config/chromium/Default/Web\ Data "CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR); INSERT INTO meta VALUES('version','46'); CREATE TABLE keywords (foo INTEGER);";
 
 	# Disable DPMS / Screen blanking
-	hdmi_safe=1
+	# hdmi_safe=1
 	xset -dpms
 	xset s off
 
