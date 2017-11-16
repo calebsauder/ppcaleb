@@ -15,7 +15,6 @@ RUN apt-get update \
     x11-xserver-utils \
     xinit \
     xwit
-    hdmi_force_hotplug=1
 
 RUN mkdir -p /usr/src/app \
   && ln -s /usr/src/app /app
