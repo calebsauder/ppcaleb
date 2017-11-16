@@ -4,7 +4,7 @@
 
 ldconfig
 
-echo $URL
+echo $URL > /usr/src/app/url.txt
 
 useradd -m pi
 
