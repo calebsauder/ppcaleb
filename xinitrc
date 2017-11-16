@@ -2,8 +2,7 @@
 while true; do
 
 	# Clean up previously running apps, gracefully at first then harshly
-	hdmi_force_hotplug=1
-	hdmi_drive=2
+	hdmi_safe=1
 	killall -TERM chromium 2>/dev/null;
 	killall -TERM matchbox-window-manager 2>/dev/null;
 	sleep 2;
