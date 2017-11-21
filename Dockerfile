@@ -4,6 +4,7 @@ RUN apt-get update \
   && apt-get upgrade -y \
   && apt-get install -y \
     chromium-browser \
+    browser-plugin-gnash \
     fbset \
     htop \
     libnss3 \
