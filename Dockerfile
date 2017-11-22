@@ -3,7 +3,7 @@ FROM resin/rpi-node:0.10-wheezy
 RUN apt-get update \
   && apt-get upgrade -y \
   && apt-get install -y \
-    chromium-browser \
+    epiphany-browser \
     browser-plugin-gnash \
     fbset \
     htop \
